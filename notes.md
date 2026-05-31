@@ -33,6 +33,17 @@ Phase 1: python 地基
 
 以后处理多个城市，多个文件，多个用户消息，搜索多个结果的时候，都会用到列表和循环。
 
+## lesson 5:dict 字典
+
+学习了 python 字典结构
+- dict 用来保存 key-value 数据
+- key 是字段名， value 是字段值
+- 可以通过 student["name"] 读取字段值
+- 可以通过 student["phase"] = "xxx" 修改字段
+- 可以通过 student.item() 遍历所有字段
+
+字段很重要，因为后面API返回的JSON数据，经常会被python转成dict来处理。
+
 
 #### 今日疑问
 
