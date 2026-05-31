@@ -12,6 +12,12 @@
 #### 1
 在vscode中运行文件需要先保存之后才能运行，不然文件运行无效
 
+#### 2
+假如需要重新建立仓库，那么需要重新让本地文件和github上同步，就需要使用ssh密钥链接
+
+链接命令： git remote add origin:ssh密钥
+重新链接命令： git remote set-url origin
+
 ### 报错信息
 
 ### 尝试过的方法
