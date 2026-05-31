@@ -18,6 +18,8 @@
 链接命令： git remote add origin:ssh密钥
 重新链接命令： git remote set-url origin
 
+检查是否链接成功的命令：git remote -v
+
 ### 报错信息
 
 ### 尝试过的方法
