@@ -22,6 +22,13 @@ Phase 1: python 地基
 - 出书话Git 仓库
 - 创建 README.md / notes.md /debug-log.md/main.py
 
+## 虚拟环境
+虚拟环境相当于一个小房间，不希望把每个项目都往系统python里面乱包装
+
+给项目创建虚拟环境：python3 -m venv .venv
+
+创建完虚拟环境需要激活：source .venv/bin/activate
+
 ## lesson 4:list 和 for 循环
 
 学习了列表和for循环。
