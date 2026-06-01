@@ -74,6 +74,18 @@ Phase 1: python 地基
 
 后面的天气查询CLI工具会用input（）接收用户输入的城市名
 
+## Lesson 8: try / except 异常处理
+
+学习了异常处理
+
+- try 用来包住可能出错的代码
+- except 用来处理错误
+- ValueError 是常见的值转换错误
+- input（）输入中后的得到是字符串，有可能转化成int 或 float失败
+- try / except 可以避免程序因为用户输入错误而直接崩溃
+
+后面做天气查询 CLI工具时，如果用户输入错误、API请求失败，都需要异常处理
+
 #### 今日疑问
 
 1. f-string 是干什么的？
