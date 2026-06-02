@@ -99,6 +99,30 @@ Phase 1: python 地基
 
 后面做AI工具时，经常会用到读取文档，保存日志，保存API返回结果。
 
+## Lesson 10: pathlib 路径管理
+
+今天学习了pathlib。
+
+- Path 可以更清楚地管理文件路径
+- Path“.” 表示当前运行目录
+- 可以用 / 来拼接路径
+- mkdir（exist_ok = True）可以创建文件夹
+- eixst（） 可以判断文件夹或文件是否存在
+
+后面做项目时，会把数据、日志、配置文件，放到不同的文件夹里，而不是全部堆积在根目录下。
+
+## Lesson 11: JSON 数据处理
+
+学习了 python 的 JSON 模块
+
+- JSON 是网络API常见的数据格式
+- json.dumps() 可以把 Python 字典转化成 JSON 字符串
+- json.loads() 可以把 JSON 字符串转回 Python 字典
+- json.dump() 可以把 Python 数据写入 JSON 文件
+- json.load() 可以从 JSON文件中读取数据
+
+后面调用天气API 和 AI API 时，经常会处理 JSON数据。
+
 #### 今日疑问
 
 1. f-string 是干什么的？
