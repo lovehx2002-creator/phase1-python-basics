@@ -123,6 +123,33 @@ Phase 1: python 地基
 
 后面调用天气API 和 AI API 时，经常会处理 JSON数据。
 
+## Lesson 12: requests 网络请求
+
+学习了requests 
+
+- pip install requests 可以安装第三方库
+- requests.get(url) 可以向URL 发起 GET请求
+- respones.status_code 是响应状态码
+- respones.text 是原始文本内容
+- respones.json() 可以吧 JSON响应转化成python 数据
+- timeout 可以避免请求一直卡住
+- response.raise_for_status() 可以检查HTTP 错误
+
+后面的天气查询 CLI 工具会用 requests 调用天气API
+
+## Lesson 13: .env 和环境变量
+
+学习了 .env 和 python-dotenv
+
+- .env用来保存配置和密钥
+- python-dotenv 可以用来读取 .env文件
+- load_dotenv() 会加载 .env
+- os.getenv(“变量名”) 可以读取环境变量
+- 从 .env 读出来的默认值是字符串
+- .env 不能提交到GitHub，必须写进 .gitignore
+
+后面调用天气API、OpenAI API时，API key会放在 .env里
+
 #### 今日疑问
 
 1. f-string 是干什么的？
