@@ -11,7 +11,7 @@ print("=== 环境变量读取结果 ===")
 print(f"应用名称：{app_name}")
 print(f"用户名{user_name}")
 print(f"每日学习小时数：{daily_study_hours}")
-print(f"daily_study_hours的类型：{type(daily_study_hours)}")
+print(f"daily_study_hours的类型:{type(daily_study_hours)}")
 
 print(" ==== 类型转换 ====")
 
