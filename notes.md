@@ -163,6 +163,20 @@ Phase 1: python 地基
 
 这节课开始接近真实项目流程：读取配置、请求接口、数据处理、保存结果。
 
+## Lesson 15:天气查询 CLI 工具 V1
+
+今天开始 phase 1 历程碑项目：天气查询CLI工具
+
+完成了本地模拟版：
+
+- 用 input() 接受城市名
+- 用嵌套 dict 模拟天气数据
+- 用 get_weather(city) 查询天气
+- 用 print_weather(city,weather) 输出天气
+- 用 try / except KeyError 处理城市不存在的情况
+
+这个版本还没有链接真实天气 API，但是已经具备了 CLI 工具的基本结构
+
 #### 今日疑问
 
 1. f-string 是干什么的？
