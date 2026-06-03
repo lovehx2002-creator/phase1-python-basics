@@ -150,6 +150,19 @@ Phase 1: python 地基
 
 后面调用天气API、OpenAI API时，API key会放在 .env里
 
+## Lesson 14:API 请求并保存 JSON
+
+做了一个小整合练习
+
+- 从 .env 读取 TEST_API_URL
+- 用 requests.get() 请求 API
+- 用 response.json() 把返回结果转换成Python字典
+- 用 pathlib 创建 data 文件
+- 用 json.dump() 把结果保存成 JSON 文件
+- 用 try / except 处理请求异常和 JSON 解析异常
+
+这节课开始接近真实项目流程：读取配置、请求接口、数据处理、保存结果。
+
 #### 今日疑问
 
 1. f-string 是干什么的？
