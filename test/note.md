@@ -15,4 +15,18 @@
 
 - 想要把文件做好分类管理，在 python 中，需要导入包 pathlib，但是又不是需要整个包都需要，需要里面的 Path 方法。 Path() 是用来显示文件路径的。
 - 文件路径 规划 那么就需要创建文件夹，文件夹 创建方法 mkdir（） 里面可以添加 exist_ok=True ,代表着 这个文件夹如果被创建了，在创建的时候，是不会存在报错的。
-- 但是 文件 with open（）as file：
+- 但是 文件 with open（）as file： 这个创建的
+
+## 3 json 文件格式
+
+json 是python的一个模块，但是其实是一种数据格式。
+
+- json是API常见的返回数据格式，和 dict 有点像
+- 常见的几个操作命令 dumps loads dump load ，是将 dict 和 json 常用的数据类型转换命令。 带s是字符串的转换，不带s是文件。
+- json 数据的格式，其实是字符串。
+- 如果想把字典数据类型 转换成 json格式，使用dumps（）但是输出的类型是字符串，这里面要填写 转换的对象，ensure_ascii=False，indent =   对应的内容是转换的对象，后面是确保输出的类型，indent 是缩进几个位置。
+- 如果要把 json 类型格式转回 dict ，就要使用 loads（）方法。
+
+- 如果要保存json格式的文件 ，开始使用保存文件的方式 with open （） as file：
+就要使用 dump（）方法，这个包含四个部分，1️⃣需要保存的字典格式， 2️⃣保存的文件 ， 3️⃣ensure_ascii=False，4️⃣
+
