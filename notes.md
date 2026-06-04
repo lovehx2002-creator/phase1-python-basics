@@ -177,6 +177,20 @@ Phase 1: python 地基
 
 这个版本还没有链接真实天气 API，但是已经具备了 CLI 工具的基本结构
 
+## Lesson 16:Weather CLI v2
+
+升级了天气查询CLI工具
+
+- 用 strip() 去掉用户输入前后的空格
+- 用 lower() 实现大小写不敏感查询
+- 用 data/weather_history.json 保存查询历史
+- 用 pathlib 管理历史文件路径
+- 用 json.load() 读取历史
+- 用 json.dump() 保存历史
+- 用函数拆分查询、输出、保存历史等逻辑
+
+这个版本已经从简单练习变成了一个小命令行工具。
+
 #### 今日疑问
 
 1. f-string 是干什么的？

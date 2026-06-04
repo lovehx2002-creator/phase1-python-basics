@@ -1,0 +1,20 @@
+[
+  {
+    "city": "Singapore",
+    "temperature": 30,
+    "condition": "Rainy",
+    "humidity": 80
+  },
+  {
+    "city": "Tokyo",
+    "temperature": 22,
+    "condition": "Cloudy",
+    "humidity": 60
+  },
+  {
+    "city": "Singapore",
+    "temperature": 30,
+    "condition": "Rainy",
+    "humidity": 80
+  }
+]
