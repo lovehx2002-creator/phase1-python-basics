@@ -29,4 +29,17 @@ json 是python的一个模块，但是其实是一种数据格式。
 
 - 如果要保存json格式的文件 ，开始使用保存文件的方式 with open （） as file：
 就要使用 dump（）方法，这个包含四个部分，1️⃣需要保存的字典格式， 2️⃣保存的文件 ， 3️⃣ensure_ascii=False，4️⃣
+- 如果要读取 保存了 json类型的文件 with open（）as file 然后用read（）方法直接读取 json形式的文件数据。 或者可以 使用 load（），将 json 类型文件转成 dict ，读取出来。
+
+## 4 requests 请求
+
+requests 其实也是 python 当中的一个模块。
+
+- 要先确定 url 就是所谓的网址 API 服务器的地址
+- 请求使用url 要使用 requests 模块里的 get（）方法，为了看请求的是否成功，需要返回一个 status_code 200 表示成功 ，在 get（）方法里面放一个 timeout=10，表示10秒没有请求成功就停止，免得一直请求浪费时间
+- 将返回的数据转是 json 数据形式，使用 json（）方法之后，转换成 dict
+    这个 如果返回 直接调用 text 属性，那么输出的形式 就是 json格式
+- 最后 希望把这个 requests 请求写成一个 try/except 结构，这样请求的时候出现了异常也不会报错，异常为：requests.exceptions.RequestExceptions
+
+
 
